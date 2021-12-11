@@ -10,6 +10,8 @@ public class Client {
             String s = obj.nextLine();
 
             System.out.println(service.caseChanger(s));
+            System.out.println(service.minChar(s));
+            System.out.println(service.reverse(s));
 
         } catch (Exception e) {
             e.printStackTrace();
